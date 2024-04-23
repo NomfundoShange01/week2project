@@ -1,0 +1,83 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+input[type="search"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #01352c;
+  border-radius: 5px 0 0 5px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #61b390;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #acf1dc;
+  color: black;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current-weather {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #01352c;
+  border-radius: 10px;
+  padding: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: #c2eabd;
+  box-shadow: 5px 5px 10px #01352c;
+  gap: 10px;
+}
+
+.sunny {
+  font-size: 30px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a,
+strong {
+  margin-left: 4px;
+  margin-right: 4px;
+  color: green;
+  font-weight: bold;
+}
+
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(148, 233, 194) 11.2%,
+    rgb(224, 235, 186) 91.1%
+  );
+}
+
+.sentence {
+  margin-top: 30px;
+  text-align: center;
+}
